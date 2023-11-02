@@ -6,7 +6,7 @@ import errno
 app = Flask(__name__)
 
 # Configura un token secreto para la autenticación
-SECRET_TOKEN = 'putamadremecrecioelpene'
+SECRET_TOKEN = 'crearurlsecreta'
 
 # Leer la configuración desde el archivo config.conf
 with open('config.conf', 'r') as config_file:

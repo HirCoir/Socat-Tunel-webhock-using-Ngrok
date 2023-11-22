@@ -31,7 +31,7 @@ curl -X POST \
   -H "Content-Type: application/json" \
   -H "Authorization: Token $flask_token" \
   -d '{"url": "'$ngrok_url'"}' \
-  http://$WEBHOOCK_URL:$WEBHOOCK_PORT=/webhook
+  http://$WEBHOOCK_URL:$WEBHOOCK_PORT/webhook
 
 # Mostrar información adicional
 echo "URL TCP enviada al servidor webhock"
